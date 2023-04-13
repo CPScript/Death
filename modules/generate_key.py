@@ -12,4 +12,4 @@ with open('private.key','wb') as e:
     e.write(private_key)
     e.close()
 
-print '[+] Private and Public keys have been sucessfuly generated'
+print ("[+] Private and Public keys have been sucessfuly generated")
